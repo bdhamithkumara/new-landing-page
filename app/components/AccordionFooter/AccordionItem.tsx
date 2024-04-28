@@ -10,13 +10,12 @@ interface Subtitle {
 type Props = {
     key : number;
     title : string;
-    children : React.ReactNode;
     open : boolean;
     onClick : () => void;
     subtitle : Subtitle[];
 }
 
-export const AccordionItem = ({key, title, children, onClick, open = false , subtitle} : Props) => {
+export const AccordionItem = ({key, title , onClick, open = false , subtitle} : Props) => {
   return (
     <div className='w-full select-none '>
         <div className=' py-4'>
