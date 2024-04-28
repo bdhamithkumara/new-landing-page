@@ -70,3 +70,11 @@
         flex-direction : row !important;
     }
 }
+
+.plans-col-row{
+    display : flex;
+    flex-direction : column !important;
+    @media ( min-width : 768px){
+        flex-direction : row !important;
+    }
+}
