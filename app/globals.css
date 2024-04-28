@@ -98,3 +98,11 @@
         flex-direction: row !important;
     } 
 }
+
+.cta-btn{
+    display: flex;
+    flex-direction: column !important;
+    @media (min-width: 768px) {
+        flex-direction: row !important;
+    } 
+}
