@@ -8,7 +8,7 @@ const Page = () => {
           <div className='w-full rounded-2xl h-auto md:py-[88px] py-[56px] bg-cta'>
             <div className='flex flex-col items-center'>
               <h2 className='md:text-[56px] text-[32px] text-[#fff] md:w-[600px] w-[280px] leading-tight font-semibold text-center'>Monitor your website like a pro</h2>
-              <p className='md:text-[18px] text-[16px] text-[#fff] md:mt-[48px] mt-[24px] md:mb-[56px] mb-[40px] text-center md:w-[600px] w-[200px]'>Join over 800+ happy site owners boosting productivity and efficiency!</p>
+              <p className='md:text-[18px] text-[16px] text-[#fff] md:mt-[48px] mt-[24px] md:mb-[56px] mb-[40px] text-center md:w-[600px] w-[280px]'>Join over 800+ happy site owners boosting productivity and efficiency!</p>
               <div className='flex gap-6 cta-btn'>
                 <button className='text-[18px] font-medium bg-white text-center text-[#eb2891] h-[56px] px-8 py-4 rounded'>
                 Try for free

@@ -82,3 +82,19 @@
 .bg-cta{
     background-image : linear-gradient(40deg, #6b85f2 -1%, #bb3ed5 29%, #d922c3 40%, #fd05a5 58%, #ff135e 73%, #ff532b 100%);
 }
+
+.footer-row-col{
+    display: flex;
+    flex-direction: column !important;
+    @media (min-width: 768px) {
+        flex-direction: row !important;
+    } 
+}
+
+.copyright-row-col{
+    display: flex;
+    flex-direction: column !important;
+    @media (min-width: 768px) {
+        flex-direction: row !important;
+    } 
+}
