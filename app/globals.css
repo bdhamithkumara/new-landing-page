@@ -62,3 +62,11 @@
 .arrow-bg-color-pink{
     background-color : #fde7f3;
 }
+
+.faq-row-col{
+    display : flex;
+    flex-direction : column !important;
+    @media ( min-width : 768px){
+        flex-direction : row !important;
+    }
+}
