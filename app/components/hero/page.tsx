@@ -41,7 +41,7 @@ const page = () => {
         <div className='mt-[50px]'>
           <Image src={HeroWeb} alt='' width={0} height={0} className='rounded-2xl xl:w-[920px] xl:h-[653px]
           lg:w-[710px] lg:h-[506px] md:w-[590px] md:h-[420px] sm:h-[341px] sm:w-[480px] xs:w-[350px] xs:h-[249px] w-[280px] h-[200px] shadow-img'  />
-          <Image src={HeroMobile}  alt='' width={0} height={0} className='sm:rounded-2xl rounded-lg xl:ml-[833px] xl:mt-[-510px]  lg:ml-[653px] lg:mt-[-393px] md:ml-[540px] md:mt-[327px] sm:ml-[431px] sm:mt-[-266px] xs:ml-[312px] xs:mt-[-193px] ml-[249px] mt-[-155px] xl:w-[260px] xl:h-[560px] lg:w-[200px] lg:h-[427px] md:w-[165px] md:h-[352px] sm:w-[135px] sm:h-[289px] xs:w-[98px] xs:h-[210px] w-[78px] h-[168px] shadow-img'/>
+          <Image src={HeroMobile}  alt='' width={0} height={0} className='sm:rounded-2xl rounded-lg           xl:ml-[833px] xl:mt-[-510px] lg:ml-[643px] lg:mt-[-393px] md:ml-[540px] md:mt-[-327px] sm:ml-[431px] sm:mt-[-266px] xs:ml-[312px] xs:mt-[-193px] ml-[249px] mt-[-155px] xl:w-[260px] xl:h-[560px] lg:w-[200px] lg:h-[427px] md:w-[165px] md:h-[352px] sm:w-[135px] sm:h-[289px] xs:w-[98px] xs:h-[210px] w-[78px] h-[168px] shadow-img'/>
         </div>
         <div className='w-full xl:mb-[80px] lg:mb-[60px] mt-[30px] flex flex-col justify-center items-center'>
           <div className='lg:mx-20 mx-5 max-w-[1536px] flex flex-col lg:flex-row logo-row-col'>

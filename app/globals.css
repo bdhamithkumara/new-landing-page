@@ -41,8 +41,24 @@
 
 .logo-row-col{
     display : flex;
-    flex-direction : coumn !important;
+    flex-direction : column !important;
     @media ( min-width : 1024px){
         flex-direction : row !important;
     }
+}
+
+.section-row-col{
+    display : flex;
+    flex-direction : column !important;
+    @media ( min-width : 1024px){
+        flex-direction : row !important;
+    }
+}
+
+.arrow-bg-color-section-two{
+    background-color : #dcfcdd;
+}
+
+.arrow-bg-color-pink{
+    background-color : #fde7f3;
 }
